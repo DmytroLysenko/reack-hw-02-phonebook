@@ -1,7 +1,7 @@
 import React from "react";
-import ContactForm from "./ContactForm/ContactForm";
-import ContactList from "./ContactList/ContactList";
-import Filter from "./Filter/Filter";
+import ContactForm from "./components/ContactForm";
+import ContactList from "./components/ContactList";
+import Filter from "./components/Filter";
 import styles from "./PhonebookApp.module.css";
 
 export default class PhonebookApp extends React.Component {
